@@ -1,16 +1,34 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+This is a weather application built with Flutter. It uses the Open Weather API to fetch real-time weather data.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Fetches real-time weather data for Mumbai.
+- Displays weather information like temperature, humidity, and weather conditions.
 
-A few resources to get you started if this is your first Flutter project:
+## How to Use
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Step 1:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Download or clone this repo by using the link below:
+https://github.com/anaskhan-01/Weather-App
+
+**Step 2:**
+
+Go to project root and execute the following command in console to get the required dependencies:
+flutter pub get
+
+**Step 3:**
+
+Navigate to the `lib/` directory and run the following command:
+flutter run
+
+## Libraries & Tools Used
+
+- [Flutter](https://flutter.dev/)
+- [Open Weather API](https://openweathermap.org/api)
+
+## Conclusion
+
+This is a simple Flutter app that fetches and displays weather data for Mumbai. It's a great starting point for anyone looking to understand how to use APIs in Flutter.
